@@ -41,7 +41,7 @@ if uploaded_file is not None:
     image_np = np.array(image)
 
     # Load model
-    model = load_model('/content/drive/MyDrive/Colab Notebooks/solar panal object/best.pt')
+    model = load_model('/content/drive/MyDrive/Colab Notebooks/solar panal object/best.pt')  # your path of best.pt file 
 
     # Perform object detection
     results = detect_objects(image_np, model)
